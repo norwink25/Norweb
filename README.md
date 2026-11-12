@@ -1,4 +1,5 @@
 Logboek Norwin - Het web is voor iedereen - Blok 2
+
 Ik heb geleerd hoe je in css door fonts allerlei creatieve dingen kan maken, zoals de letters een shadow geven voor meer diepte of een gloeiend effect.
 Ik heb geleerd hoe fonts werken en wat regular, bold, italic en bold italic zijn. Ik heb geleerd hoe @font-face werkt, dat je via font-family de font via de naam kan koppelen aan bepaalde eigenschappen als bijvoorbeeld de font size, weight en kleur. Ook is de font style belangrijk: dit kan bepalen of de tekst als regular wordt weergegeven of als italic (schuin). Daarnaast heb ik geleerd dat Google Fonts in een website gebruiken een absolute no-go is, tenzij het font wordt gedownload. 
 Ik heb geleerd om aanpassingen aan de website te maken door in de index.html bepaalde dingen als de naam aan te passen en deze via source control een passende naam te geven voor overzicht. Zo is het duidelijker welke aanpassingen ik heb gemaakt. Ik heb in dit geval de naamaanpassing uitgelegd door "Naam Aangepast" erbij te zetten.

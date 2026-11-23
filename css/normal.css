@@ -9,6 +9,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Pokemon GB";
+  src: url(../fonts/Pokemon\ GB.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
 /**************************
 * MARK: Custom properties
 **************************/
@@ -25,21 +32,72 @@ html {
 *::after,
 *::before {
   box-sizing: border-box;
+
+  .nav{
+  
+
+
+
+  }
 }
 
+
+.textbox {
+  
+display: flex;
+position: relative;
+align-content: center;
+background-repeat: no-repeat;
+
+width: 100%;
+max-width: 1200px;
+
+}
+
+.textbox img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.textbox p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+
+  font-size: 1em;
+  max-width: 50%;
+}
+
+
 img {
-  max-width: 100%;
+  max-width: 60%;
+  display: grid;
 }
 
 body {
-  font-family: "Comic Relief", system-ui;
+  font-family: "Pokemon GB";
+  color: black;
+  background-color: DarkOliveGreen;
 }
+
 
 /**************************
 * MARK: Header
 **************************/
 
 header {
+margin-top: 100px;
+text-align: center;
+font-size: 2em;
+margin-bottom: 500px;
+
 }
 
 /**************************
@@ -54,6 +112,9 @@ footer {
 **************************/
 
 main {
+margin: auto;
+display: grid;
+text-align: center;
 }
 
 /**************************

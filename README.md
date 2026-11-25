@@ -1,6 +1,14 @@
 Logboek Norwin - Het web is voor iedereen - Blok 2
 
 
+Check-Out:
+
+1. Een website wordt lelijk als je geen aandacht besteedt aan scaling en grids, waardoor de website vreemd eruit gaat zien als je een ander apparaat gebruikt.
+
+2. Door gebruik te maken van grids en te zorgen dat ik mobile first werk, om de website optimaal weer te geven op ieder apparaat.
+
+3. Ik heb gekozen voor een digital garden waarin een van mijn hobbies centraal staat. Het wordt een soort collectiepagina in de stijl van oude Pokémon games. Voor mijn site zorg ik dat de kaarten zowel op een laptopscherm als een telefoon goed worden weergegeven door gebruik te maken van css-grids. Ik wil genoeg aandacht besteden aan gebruiksvriendelijkheid en een unieke stijl met hier en daar wat creatieve elementen zoals een typewriter effect bij tekstballonnen en een selectie scherm met een pijl ernaast zoals in de Pokémon games.
+
 
 
 In de klas hebben we een gesprek gehad met een student die helpt met coderen en met Barbara. Mijn idee is technisch lastig en ik vind dat het niet genoeg bij mij past. Ik heb daarom besloten om iets anders te gaan maken. Omdat ik een groot Pokémon fan ben wil ik daar iets mee doen. Ik zit te denken aan een site over het verzamelen van Pokémon kaarten en waarom ik het leuk vind om te doen. Ik wil het in de stijl van Pokémon doen en gave animaties toevoegen die passen bij de games. Dit idee zal technisch haalbaarder zijn omdat ik er een collectie van kan maken met mijn kaarten en uitleg waarom ik het zo'n leuke hobby vind. Ik ga opnieuw aan de slag met visual research in Miro.

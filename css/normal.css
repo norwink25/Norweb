@@ -32,16 +32,38 @@ html {
 *::after,
 *::before {
   box-sizing: border-box;
+}
+.sitetitel{
 
+font-size: 1em;
+max-width: 800px;
+text-align: center;
+margin: 0 auto;
+text-shadow: 1px, 1px, 1px, white;
+}
 
+.sitetitelsubtekst{
 
-.Characterplaatje{
+font-size: 1em;
+text-align: center;
+margin: 0 auto;
 
+}
+
+.h1, h2, h3{
+font-size: 2em;
+
+}
+
+.Characterplaatje {
   size: 40px;
 }
+
+.achtergrondhomepage{
+background-image: url("../images/plaatjesvoorsite/Achtergrond.jpg");
+
+
 }
-
-
 
 .pokemon-menu {
   background-image: url("../images/plaatjesvoorsite/Pokemonmenu.png");
@@ -55,7 +77,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  container-type: inline-size;
 
   margin: 0 auto;
 }
@@ -98,7 +119,6 @@ html {
 }
 
 
-
 .textbox {
   
 display: flex;
@@ -107,7 +127,7 @@ align-content: center;
 background-repeat: no-repeat;
 
 width: 100%;
-max-width: 1200px;
+max-width: 1400px;
 
 }
 
@@ -118,6 +138,7 @@ max-width: 1200px;
   margin: 0 auto;
   
 }
+
 .textbox p {
   position: absolute;
   top: 50%;
@@ -140,10 +161,11 @@ img {
 
 body {
   font-family: "Pokemon GB";
+  letter-spacing: 2%;
   color: black;
-  background-color: DarkOliveGreen;
-  margin-left: 10%;
-  margin-right: 10%;
+  background-color: antiquewhite;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
@@ -151,11 +173,22 @@ body {
 * MARK: Header
 **************************/
 
+
+
+
+
 header {
-margin-top: 100px;
-text-align: center;
-font-size: 1.5em;
-margin-bottom: 500px;
+
+  min-height: 800px;
+  background-image: url("../images/plaatjesvoorsite/Achtergrond.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.5em;
+  margin-bottom: 300px;
 
 }
 
@@ -164,6 +197,7 @@ margin-bottom: 500px;
 **************************/
 
 footer {
+
 }
 
 /**************************
@@ -171,10 +205,33 @@ footer {
 **************************/
 
 main {
-margin: auto;
 display: grid;
-text-align: center;
+text-align: left;
+margin-left: 10%;
+margin-right: 10%;
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+
 }
+
+.kaartgrid {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.kaartgrid img {
+  width: 60%;
+  max-width: 100%;
+  align-content: center;
+}
+
+
+
+
+
 
 /**************************
 * MARK: Section ...
